@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2015 The CyanogenMod Project
+ * Copyright (C) 2017 The UOS Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -32,6 +33,12 @@ public class Build {
 
     /** A build ID string meant for displaying to the user */
     public static final String CYANOGENMOD_DISPLAY_VERSION = getString("ro.cm.display.version");
+
+    /** Get the version for UOS */
+    public static final String UOS_VERSION = getString("ro.uos.version");
+
+    /** Get the display version for UOS  */
+    public static final String UOS_DISPLAY_VERSION = getString("ro.uos.display.version");
 
     private static final SparseArray<String> sdkMap;
     static

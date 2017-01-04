@@ -658,6 +658,8 @@ package cyanogenmod.os {
     method public static java.lang.String getNameForSDKInt(int);
     field public static final java.lang.String CYANOGENMOD_DISPLAY_VERSION;
     field public static final java.lang.String CYANOGENMOD_VERSION;
+    field public static final java.lang.String UOS_VERSION;
+    field public static final java.lang.String UOS_DISPLAY_VERSION;
     field public static final java.lang.String UNKNOWN = "unknown";
   }
 
