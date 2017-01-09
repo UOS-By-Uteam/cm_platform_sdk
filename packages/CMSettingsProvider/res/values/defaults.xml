@@ -59,7 +59,7 @@
          * 6: Display the battery as plain text
          * default: 2
          -->
-    <integer name="def_battery_style">2</integer>
+    <integer name="def_battery_style">0</integer>
 
     <!-- Default for CMSettings.Secure.QS_USE_MAIN_TILES -->
     <bool name="def_sysui_qs_main_tiles">true</bool>
