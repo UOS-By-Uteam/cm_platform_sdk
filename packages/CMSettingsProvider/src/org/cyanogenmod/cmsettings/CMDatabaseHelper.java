@@ -395,6 +395,9 @@ public class CMDatabaseHelper extends SQLiteOpenHelper{
             loadIntegerSetting(stmt, CMSettings.System.STATUS_BAR_BATTERY_STYLE,
                     R.integer.def_battery_style);
 
+            loadIntegerSetting(stmt, CMSettings.System.STATUS_BAR_CLOCK,
+                    R.integer.def_clock_pos);
+
             if (mContext.getResources().getBoolean(R.bool.def_notification_pulse_custom_enable)) {
                 loadStringSetting(stmt, CMSettings.System.NOTIFICATION_LIGHT_PULSE_CUSTOM_VALUES,
                         R.string.def_notification_pulse_custom_value);

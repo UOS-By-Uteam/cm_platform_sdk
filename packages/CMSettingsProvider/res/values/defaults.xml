@@ -122,4 +122,7 @@
     -->
     <string name="def_enabled_event_lls_components"></string>
 
+    <!-- Default value of CMSettings.System.STATUS_BAR_CLOCK -->
+    <integer name="def_clock_pos">2</integer>
+
 </resources>

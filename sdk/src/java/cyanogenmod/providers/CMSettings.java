@@ -840,7 +840,7 @@ public final class CMSettings {
          * 1: show the clock in the right position (LTR)
          * 2: show the clock in the center
          * 3: show the clock in the left position (LTR)
-         * default: 1
+         * default: 3
          */
         public static final String STATUS_BAR_CLOCK = "status_bar_clock";
 
